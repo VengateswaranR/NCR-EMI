@@ -1,0 +1,53 @@
+.bg{
+    background-color: aliceblue;
+}
+.head { grid-area: header;
+background-color: yellow;
+color: red;
+font-size:-webkit-xxx-large;
+text-align: center;
+margin:auto;
+}
+
+  
+  .lab_size{
+    font-size: 75%;
+  }
+  
+  .fl{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .input_tab{
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 12px 20px;
+    display: flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .tablec{
+    font-size: -webkit-xxx-large;
+    width: 80%;
+    margin: auto;
+  }
+  .but{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .kkbut:hover {
+    opacity: 0.8;
+  }
+  
