@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+         <link rel="stylesheet" href="fin.css">
+         <script src="fin.js"> </script>
+    <title>N.C.R Finance</title>
+<body class="bg">
+    <div class="head">N.C.R Finance</div>
+    <div class="fl">
+        <table class="tablec">
+    <tr>
+        <td><label class="lab_size">Amount</label></td>
+        <td><input type="text" class="input_tab" id="amount"></td>
+    </tr>
+    <tr>
+        <td><label class="lab_size">Month</label></td>
+        <td><select id="month"class="input_tab">
+            <option  value="12">12 </option>
+            <option  value="18">18 </option>
+            <option  value="24">24 </option>
+            <option  value="30">30</option>
+            <option  value="36">36 </option>
+    </tr>
+    </table>
+    <div class="cont">
+        <button type="button" class="but" onclick="fincal()">EMI Amount</button>
+        </div>
+    </div>
+    <p id="EMI">EMI Amount: </p>
+    <div id="outputContainer"></div>
+</body>
+  </head>
